@@ -1,0 +1,87 @@
+/* styles.css or global.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    border: 0px solid transparent;
+    border-radius: 10px;
+    margin: 15px 10px;
+    color: white;
+    padding: 15px;
+    transition: background-color 0.3s ease-out;
+    position: relative;
+  }
+  
+  .brand {
+    font-size: 1.5rem;
+  }
+  
+  .nav-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .link {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .hamburger {
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+  }
+  
+
+  /* Added hover effect for individual links */
+  .link:hover {
+    background-color: #555;
+  }
+  
+  /* Added hover effect for the hamburger icon */
+  .hamburger:hover {
+    background-color: #555;
+  }
+  
+  .pointer-circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    position: absolute;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      align-items: flex-start;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      background-color: #333;
+      width: 100%;
+    }
+  
+    .nav-links.open {
+      display: flex;
+      max-width: 60%;
+    }
+  
+    .hamburger {
+      display: block;
+    }
+  }
+  
