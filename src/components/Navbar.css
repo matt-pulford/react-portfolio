@@ -7,6 +7,7 @@
 .navbar {
   display: flex;
   margin: 15px 16%;
+  margin-bottom: 20rem;
   padding: 0 30px;
   padding-left: 0;
   height: 9vh;
@@ -24,7 +25,7 @@
   /* Add flex display to the brand */
   align-items: center;
   /* Center the content vertically */
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 
@@ -39,6 +40,10 @@ a.brand {
   display: flex;
   flex-direction: row;
   align-items: center;
+  font-size: 0.9rem;
+  > a {
+    margin: 0 15px;
+  }
 }
 
 .link {
@@ -61,6 +66,17 @@ a.brand {
 /* Added hover effect for the hamburger icon */
 .hamburger:hover {
   background-color: #555;
+}
+
+.nav-links.recentProjects .recentProjects-content,
+.nav-links.services .services-content,
+.nav-links.contact .contact-content {
+  display: block;
+}
+
+.link.active {
+  border-bottom: 2px solid red;
+
 }
 
 
