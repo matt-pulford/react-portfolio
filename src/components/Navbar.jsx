@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <Link to="/" className={`brand ${location.pathname === '/' ? 'active' : ''}`}>
-        <div className='name'>Matt Pulford</div>
+        <img className="logo" src="/images/logo2.png" alt="Logo" />
       </Link>
 
       <div className={`nav-links ${isNavOpen ? 'open' : ''}`}>
@@ -31,3 +31,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+

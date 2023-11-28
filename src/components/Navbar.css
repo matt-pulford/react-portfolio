@@ -2,44 +2,34 @@
 :root {
   --navbar-color: #2c2a2a;
 }
-
-
 .navbar {
   display: flex;
   margin: 15px 16%;
   margin-bottom: 20rem;
   padding: 0 30px;
-  padding-left: 0;
   height: 9vh;
   justify-content: space-between;
-  align-items: center;
+  align-items:flex-end;
   color: white;
   position: relative;
 }
 
-
-
 .brand {
-  padding-left: 30px;
   display: flex;
-  /* Add flex display to the brand */
-  align-items: center;
-  /* Center the content vertically */
+  align-items: flex-end;
   font-size: 2rem;
 }
 
-
-
-a.brand {
-
-  color: white;
-  text-decoration: none;
+.logo {
+  max-width: 40%;
+  height: 100%; /* Set the height to match the navbar */
+  object-fit: contain; /* Maintain aspect ratio while fitting within the height */
 }
 
 .nav-links {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-end;
   font-size: 0.9rem;
   > a {
     margin: 0 15px;
@@ -60,7 +50,7 @@ a.brand {
 
 /* Added hover effect for individual links */
 .link:hover {
-  background-color: #555;
+  background-color: #FFFFFF20;
 }
 
 /* Added hover effect for the hamburger icon */
