@@ -1,0 +1,46 @@
+.landing-container {
+
+    width: 50%;
+    margin: auto;
+    text-align: left;
+
+}
+
+.tagline {
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+.description {
+    font-size: 2rem;
+    padding-bottom: 60px;
+}
+
+button {
+    background: linear-gradient(300deg,
+            hsl(248deg 100% 77%) 72%,
+            hsl(239deg 100% 84%) 102%,
+            hsl(232deg 100% 89%) 100%);
+    -webkit-box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 1);
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 1);
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    width: 250px;
+    height: 60px;
+    border: none;
+    margin-right: 60px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.contact-button {
+    background: linear-gradient(120deg,
+            hsl(0deg 0% 100%) 45%,
+            hsl(0, 1%, 86%) 91%,
+            hsl(0, 1%, 84%) 100%);
+
+    color: #110030;
+
+
+}

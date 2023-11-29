@@ -1,92 +1,101 @@
-/* navbar.css */
-:root {
-  --navbar-color: #2c2a2a;
-}
 .navbar {
-  display: flex;
-  margin: 15px 16%;
-  margin-bottom: 20rem;
-  padding: 0 30px;
-  height: 9vh;
-  justify-content: space-between;
-  align-items:flex-end;
-  color: white;
-  position: relative;
+    height: 100px;
+    margin: auto;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
 }
 
 .brand {
-  display: flex;
-  align-items: flex-end;
-  font-size: 2rem;
+    display: flex;
+    align-items: flex-end;
 }
 
 .logo {
-  max-width: 40%;
-  height: 100%; /* Set the height to match the navbar */
-  object-fit: contain; /* Maintain aspect ratio while fitting within the height */
+    height: 90%;
+    
 }
 
 .nav-links {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  font-size: 0.9rem;
-  > a {
-    margin: 0 15px;
-  }
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: 0.9rem;
+
+    >a {
+        margin: 0 15px;
+    }
 }
 
+.nav-links .link:last-child {
+    margin-right: 0;
+}
+
+
 .link {
-  padding: 10px;
-  cursor: pointer;
+    padding: 10px;
+    cursor: pointer;
 }
 
 .hamburger {
-  font-size: 1.5rem;
-  cursor: pointer;
-  display: none;
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
 }
 
 
 /* Added hover effect for individual links */
 .link:hover {
-  background-color: #FFFFFF20;
+    background-color: #FFFFFF20;
 }
 
 /* Added hover effect for the hamburger icon */
 .hamburger:hover {
-  background-color: #555;
+    background-color: #555;
 }
 
 .nav-links.recentProjects .recentProjects-content,
 .nav-links.services .services-content,
 .nav-links.contact .contact-content {
-  display: block;
+    display: block;
 }
 
 .link.active {
-  border-bottom: 2px solid red;
+    border-bottom: 2px solid red;
 
 }
 
 
+/* Media Queries */
 @media (max-width: 939px) {
-  .nav-links {
-    display: none;
-    flex-direction: column;
-    align-items: flex-end;
-    position: absolute;
-    top: 10vh;
-    right: 0;
-    width: 100%;
-  }
 
-  .nav-links.open {
-    display: flex;
-    max-width: 50%;
-  }
+    .nav-links {
+        display: none;
+        flex-direction: row-reverse;
+        align-items: flex-end;
+        position: absolute;
+        top: 100px;
+        right: 0;
+        width: 100%;
+    }
 
-  .hamburger {
-    display: block;
-  }
+    .nav-links.open {
+        margin-top: 10px;
+        display: flex;
+        max-width: 100%;
+        justify-content: space-between;
+    }
+
+    .hamburger {
+        display: flex;
+        align-items: center;
+        margin: 0 20px;
+    }
+
+    .nav-links .link:first-child {
+        margin-left: 0;
+    }
+
 }
