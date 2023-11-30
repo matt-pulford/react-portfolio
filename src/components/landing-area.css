@@ -1,28 +1,52 @@
-/* Add this to your landing-area.css file */
-.landing-content {
-    max-width: 40%;
-    margin: 0 auto;
-    text-align: left;
+/* landing-area.css */
+
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+
+  .home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .landing-container {
+    padding: 20px;
+  }
+  
+  .landing-content {
+    max-width: 540px;
+    margin: 0;
+  }
+  
+  /* Text Container Styles */
+  .text-container {
+    text-align: start;
+    margin-bottom: 60px;
   }
   
   .tagline {
-    font-size: 3vw; /* Adjust the size as needed */
-    margin-bottom: 4vh;
-    margin-right: 2vw;
-
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 30px;
   }
   
   .description {
-    font-size: 1.4vw; /* Adjust the size as needed */
-    margin-bottom: 6vh;
-    margin-right: -2vw;
+    color: white;
+    font-size: 2rem;
+    margin-right: -140px
   }
-
-.buttons-container {
-    display: flex;
-}
   
-button {
+  /* Buttons Container Styles */
+  .buttons-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+  }
+  
+  button {
     background: linear-gradient(300deg,
             hsl(248deg 100% 77%) 72%,
             hsl(239deg 100% 84%) 102%,
@@ -45,70 +69,23 @@ button {
             hsl(0deg 0% 100%) 45%,
             hsl(0, 1%, 86%) 91%,
             hsl(0, 1%, 84%) 100%);
-
     color: #110030;
-
-
 }
 
-@media (max-width:1024px) {
-    .navbar {
-        width: 100%
-    } 
-
- 
-
-    .tagline {
-        font-size: 30px;
-        margin-bottom: 30px;
-        margin: 30px 5% 5% 0;
-    
-    }
-
-    
-    
-    .description {
-        font-size: 20px;
-        padding-bottom: 30px;
-        margin: 0;
-    
-    }
-
-    .navbar {
-        flex-direction: row-reverse;
-    }
-    
-    
-}
-
-@media (max-width:768px) {
-
-    .tagline, .description {
-       margin-right: 15%;
-       margin-left: 15%;
-    }
+  
+  /* Media Queries for Responsiveness */
+  @media screen and (max-width: 600px) {
     .landing-content {
-        max-width:75%;
-    } 
+      padding: 10px;
+    }
+  
     .buttons-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
+      flex-direction: column;
+      align-items: center;
     }
+  
     button {
-        width: 80%;
-        margin-bottom: 10px;
-        margin-right: 0;
+      margin: 0;
     }
-    .navbar {
-        flex-direction: row-reverse;
-    }
-}
-
-@media (max-width:426px) {
-    .description {
-        display: none;
-    }
-
-}
+  }
+  
