@@ -82,7 +82,6 @@ body {
   @media (max-width: 600px) {
 
     .navbar {
-      flex-direction: row-reverse;
       width: 100%;
     }
 
@@ -113,11 +112,13 @@ body {
 
 @media (max-width: 426px) {
   .tagline {
-    font-size: 2rem;
+    font-size: 2.2rem;
+    line-height: 2rem;
   }
 
   .description {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
   }
   
 }

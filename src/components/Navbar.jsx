@@ -18,10 +18,11 @@ const Navbar = () => {
       </Link>
 
       <div className={`nav-links ${isNavOpen ? 'open' : ''}`}>
-        <Link to="/portfolio" className={`link ${location.pathname === '/portfolio' ? 'active' : ''}`}>Portfolio</Link>
+        
         <Link to="/recent-projects" className={`link ${location.pathname === '/recent-projects' ? 'active' : ''}`}>Recent Projects</Link>
         <Link to="/contact" className={`link ${location.pathname === '/contact' ? 'active' : ''}`}>Contact</Link>
         <Link to="/services" className={`link ${location.pathname === '/services' ? 'active' : ''}`}>Services</Link>
+        <a className="github-link" href="https://github.com/matt-pulford/" target="_blank" rel="noopener noreferrer">GitHub</a>
       </div>
 
       <div className="hamburger" onClick={toggleNav}>
