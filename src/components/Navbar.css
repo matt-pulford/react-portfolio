@@ -24,8 +24,12 @@
     justify-content: flex-end;
     font-size: 0.9rem;
 
+
     >a {
         margin: 0 15px;
+        font-size: 1.2rem;
+        font-family: 'Dosis', sans-serif;
+
     }
 }
 
@@ -80,6 +84,10 @@
         right: 0;
         width: 100%;
         font-weight: 700;
+        padding: 0 20px 0 20px;
+        font-family: 'Dosis', sans-serif;
+
+        
     }
 
     .nav-links.open {
@@ -87,7 +95,7 @@
         display: flex;
         max-width: 100%;
         justify-content: space-between;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
 
     .hamburger {
@@ -115,4 +123,20 @@
         margin-bottom: 250px;
     }
     
+  }
+
+  @media (max-width: 769px) {
+    .navbar {
+      width: 100%
+    }
+  
+    .logo {
+      height: 70%;
+    }
+  }
+
+  @media (max-width: 321px) {
+    .navbar {
+      margin-bottom: 75px;
+    }
   }

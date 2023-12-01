@@ -20,16 +20,20 @@ body {
   /* Text Container Styles */
   .text-container {
     text-align: start;
+    line-height: 1;
     margin-bottom: 60px;
   }
   
   .tagline {
     color: white;
-    font-size: 3rem;
+    font-size: 3.2rem;
+    font-family: 'Playfair Display', serif;
+   
     margin-bottom: 30px;
   }
   
   .description {
+    font-family: 'Dosis', sans-serif;
     color: white;
     font-size: 2rem;
     margin-right: -140px
@@ -50,6 +54,7 @@ body {
     -webkit-box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 1);
     box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 1);
     color: white;
+    font-family: 'Dosis', sans-serif;
     border: 2px solid transparent;
     border-radius: 10px;
     width: 200px;
@@ -58,6 +63,7 @@ body {
     margin-right: 10%;
     font-size: 1.5rem;
     font-weight: 700;
+    letter-spacing: 1px;
 }
 
 .contact-button {
@@ -101,15 +107,6 @@ body {
   
 }
 
-@media (max-width: 769px) {
-  .navbar {
-    width: 100%
-  }
-
-  .logo {
-    height: 70%;
-  }
-}
 
 @media (max-width: 426px) {
   .tagline {
@@ -122,8 +119,3 @@ body {
   
 }
 
-@media (max-width: 321px) {
-  .navbar {
-    margin-bottom: 75px;
-  }
-}

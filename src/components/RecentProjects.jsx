@@ -4,7 +4,7 @@ import React from 'react';
 const RecentProjects = () => {
   return (
     <div>
-      <h1>Recent Projects </h1>
+      <h1>Recent Projects Blah Blah Blah </h1>
     </div>
   );
 };

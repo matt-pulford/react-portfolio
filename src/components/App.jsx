@@ -7,6 +7,7 @@ import RecentProjects from './RecentProjects';
 import Contact from './Contact';
 import Services from './Services';
 import backgroundImage from '../business-2846221-grey.webp';
+import Portfolio from "./Portfolio";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
           <Routes>
             {/* Set the Home route to be the default route without a visible link in the Navbar */}
             <Route path="/" element={<Home />} />
+            <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/recent-projects" element={<RecentProjects />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/services" element={<Services />} />
