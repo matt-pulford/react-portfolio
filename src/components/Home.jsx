@@ -1,6 +1,6 @@
 // Home.js
 import React from 'react';
-import './landing-area.css';
+import './home.css';
 
 const Home = () => {
   return (
@@ -8,8 +8,8 @@ const Home = () => {
       <div className='landing-container'>
         <div className='landing-content'>
           <div className='text-container'>
-            <h1 className='tagline'>Hello.    I'm Matt Pulford, a Full Stack Developer. </h1>
-            <p className='description'>I'm dedicated to continuous learning, seeking elegant solutions to real-world problems in the ever-evolving landscape of web development.</p>
+            <h1 className='tagline'>Hello.  I'm Matt Pulford, a Full Stack Developer. </h1>
+            <p className='description'> I look forward to collaborating with you, crafting digital experiences that stand out in the vast landscape. Let's embark on a creative journey together.</p>
           </div>
           <div className='buttons-container'>
             <button>Portfolio</button>
