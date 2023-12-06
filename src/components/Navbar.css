@@ -28,7 +28,7 @@
     >a {
         margin: 0 15px;
         font-size: 1.2rem;
-        font-family: 'Lexend', sans-serif;   
+        font-family: 'Lexend', sans-serif;
 
     }
 }
@@ -91,7 +91,7 @@
         padding: 0 20px 0 20px;
         font-family: 'Dosis', sans-serif;
 
-        
+
     }
 
     .nav-links.open {
@@ -100,7 +100,8 @@
         max-width: 100%;
         justify-content: space-between;
         margin-bottom: 20px;
-        padding-bottom: 20px; /* Adjust the value as needed */
+        padding-bottom: 20px;
+        /* Adjust the value as needed */
 
     }
 
@@ -116,9 +117,47 @@
 
 }
 
+@media (max-width: 769px) {
+
+    .nav-links {
+        background-color: #281d42;
+        align-items: flex-end;
+        border-radius: 10px;
+        width: 300px;
+        flex-direction: column;
+        overflow-y: visible;
+        border: 1px solid #FFFFFF20;
+        padding-bottom: 0px;
+    }
+.nav-links.open {
+    padding-bottom: 0;
+    padding-right: 0;
+}
+
+    .nav-links.open>a:nth-child(4) {
+        padding: 10px 0px;
+        margin-right: 22px;
+
+
+    }
+
+    .navbar {
+        width: 100%
+    }
+
+    .logo {
+        height: 70%;
+    }
+}
+
+@media (max-width: 321px) {
+    .navbar {
+        margin-bottom: 75px;
+    }
+}
 
 /* Height Queries */
-@media (max-height: 800px) {
+@media (max-height: 1000px) {
     .navbar {
         margin-bottom: 100px;
     }
@@ -129,42 +168,6 @@
         margin-bottom: 250px;
     }
     
-  }
-
-  
-
-    @media (max-width: 769px) {
-
-        .nav-links {
-            background-color: #281d42;
-            align-items: flex-end;
-            border-radius: 10px;
-            width: 300px;
-            flex-direction: column;
-            overflow-y: visible;
-            border: 1px solid #FFFFFF20;
-        }
-    
-        .nav-links.open > a:nth-child(4) {
-            padding: 10px 0px;
-            margin-right: 20px;
-            
-    
-        }
-    
-    .navbar {
-      width: 100%
-    }
-  
-    .logo {
-      height: 70%;
-    }
-  }
-
-  @media (max-width: 321px) {
-    .navbar {
-      margin-bottom: 75px;
-    }
   }
 
   
