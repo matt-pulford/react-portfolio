@@ -43,38 +43,42 @@ body {
   }
   
   /* Buttons Container Styles */
-  .buttons-container {
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 60px;
-  }
-  
-  button {
-    background: linear-gradient(300deg,
-            hsl(248deg 100% 77%) 72%,
-            hsl(239deg 100% 84%) 102%,
-            hsl(232deg 100% 89%) 100%);
-    -webkit-box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 1);
-    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 1);
-    color: white;
-    font-family: 'Dosis', sans-serif;
-    border: 2px solid transparent;
-    border-radius: 10px;
-    width: 200px;
-    height: 50px;
-    border: none;
-    margin-right: 10%;
-    font-size: 1.5rem;
-    font-weight: 700;
-    letter-spacing: 1px;
+.buttons-container {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 60px;
+}
+
+/* Apply margin-right to the Link elements */
+.buttons-container a {
+  margin-right: 10%;
+}
+
+button {
+  background: linear-gradient(300deg,
+          hsl(248deg 100% 77%) 72%,
+          hsl(239deg 100% 84%) 102%,
+          hsl(232deg 100% 89%) 100%);
+  -webkit-box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 1);
+  box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 1);
+  color: white;
+  font-family: 'Dosis', sans-serif;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  width: 200px;
+  height: 50px;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 
 .contact-button {
-    background: linear-gradient(120deg,
-            hsl(0deg 0% 100%) 45%,
-            hsl(0, 1%, 86%) 91%,
-            hsl(0, 1%, 84%) 100%);
-    color: #110030;
+  background: linear-gradient(120deg,
+          hsl(0deg 0% 100%) 45%,
+          hsl(0, 1%, 86%) 91%,
+          hsl(0, 1%, 84%) 100%);
+  color: #110030;
 }
 
   
