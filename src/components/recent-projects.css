@@ -1,0 +1,39 @@
+.project-card {
+    display: flex;
+    margin: 20px 20%;
+    text-align: start;
+  }
+
+  .project-title {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .project-image {
+    min-width: 20%; /* Adjust size as needed */
+    max-width: 45%;
+    margin-right: 50px;
+  }
+  
+  .project-info {
+    margin-top: 30px;
+    margin-bottom: 15px;;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+
+  }
+
+  
+  .project-info, .project-description {
+    font-size: 1.2rem; /* or any other size you prefer */
+  }
+  
+  .product-link {
+    margin-top: 25px;
+    font-weight: bold;
+  }
+
+  .study-button {
+    margin-top: 40px;
+  }
