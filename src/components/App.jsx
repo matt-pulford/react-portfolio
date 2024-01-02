@@ -5,7 +5,7 @@ import Home from './Home';
 import RecentProjects from './RecentProjects';
 import Contact from './Contact';
 import Services from './Services';
-import backgroundImage from '../business-2846221-grey.webp';
+import backgroundImage from '../images/business-2846221-grey.webp';
 import Portfolio from "./Portfolio";
 
 const App = () => {

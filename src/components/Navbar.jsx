@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import './Navbar.css';
 import { Link, useLocation } from 'react-router-dom';
+import Logo from '../images/logo2.png'
 
 const Navbar = () => {
   const location = useLocation();
@@ -14,7 +15,7 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <Link to="/" className={`brand ${location.pathname === '/' ? 'active' : ''}`}>
-        <img className="logo" src="/images/logo2.png" alt="Logo" />
+        <img className="logo" src={Logo} alt="Logo" />
       </Link>
 
       <div className={`nav-links ${isNavOpen ? 'open' : ''}`}>

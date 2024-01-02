@@ -146,7 +146,11 @@
     }
 
     .logo {
-        height: 70%;
+        height: 50%;
+        margin-left: 10px;
+    }
+    .hamburger {
+        align-items: flex-end;
     }
 }
 

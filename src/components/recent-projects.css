@@ -1,39 +1,74 @@
 .project-card {
-    display: flex;
-    margin: 20px 20%;
-    text-align: start;
-  }
+  display: flex;
+  margin: 20px 20%;
+  text-align: start;
+  align-items: center;
+}
 
-  .project-title {
-    font-size: 1.5rem;
-    margin-bottom: 30px;
-  }
-  
-  .project-image {
-    min-width: 20%; /* Adjust size as needed */
-    max-width: 45%;
-    margin-right: 50px;
-  }
-  
-  .project-info {
-    margin-top: 30px;
-    margin-bottom: 15px;;
-    display: flex;
-    flex-grow: 1;
-    flex-direction: column;
+.project-card.reverse {
+  flex-direction: row-reverse;
 
+  >.project-image {
+    margin-right: 0;
+    margin-left: 80px;
   }
+}
 
-  
-  .project-info, .project-description {
-    font-size: 1.2rem; /* or any other size you prefer */
-  }
-  
-  .product-link {
-    margin-top: 25px;
-    font-weight: bold;
-  }
+.project-title {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
 
-  .study-button {
-    margin-top: 40px;
-  }
+.project-image {
+  width: 700px;
+  margin-right: 80px;
+
+}
+
+.project-info {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+
+}
+
+
+.project-info,
+.project-description {
+  font-size: 1.2rem;
+  /* or any other size you prefer */
+}
+
+.product-link {
+  margin-top: 25px;
+  font-weight: bold;
+}
+
+.product-link:hover {
+  color: #7e7878;
+}
+
+
+.product-link:active {
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  transform: translateY(3px);
+  /* Slightly move the button down */
+}
+
+.study-button {
+  margin-top: 40px;
+}
+
+.spacer {
+  margin: 7% auto;
+  width: 50%;
+  border-bottom: 1px solid #FFFFFF50;
+}
+
+.tags {
+  text-align: start;
+  margin-top: 50px;
+}
