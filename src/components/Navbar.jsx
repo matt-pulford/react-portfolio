@@ -1,6 +1,6 @@
 // Navbar.js
 import React, { useState } from 'react';
-import './Navbar.css';
+import './css/Navbar.css';
 import { Link, useLocation } from 'react-router-dom';
 import Logo from '../images/logo2.png'
 

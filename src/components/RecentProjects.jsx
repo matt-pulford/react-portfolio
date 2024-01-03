@@ -1,5 +1,5 @@
 import React from 'react';
-import './recent-projects.css'
+import './css/recent-projects.css'
 import ProjectCard from './project-card';
 import HKCImage from '../images/HKC-screenshot.png'
 import DFArtImage from '../images/FDArt-screenshot.png'
