@@ -9,8 +9,8 @@ const Home = () => {
       <div className='landing-container'>
         <div className='landing-content'>
           <div className='text-container'>
-            <h1 className='tagline'>Hello. I'm Matt Pulford, a Full Stack Developer. </h1>
-            <p className='description'>I look forward to collaborating with you, crafting digital experiences that stand out in the vast landscape. Let's embark on a creative journey together.</p>
+            <h1 className='tagline text-shadow-sm'>Hello. I'm Matt Pulford, a Full Stack Developer. </h1>
+            <p className='description text-shadow-sm'>I look forward to collaborating with you, crafting digital experiences that stand out in the vast landscape. Let's embark on a creative journey together.</p>
           </div>
           <div className='buttons-container'>
             <Link to='/recent-projects'>

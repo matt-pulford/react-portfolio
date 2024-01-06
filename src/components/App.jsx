@@ -7,6 +7,8 @@ import Contact from './Contact';
 import Services from './Services';
 import backgroundImage from '../images/business-2846221-grey.webp';
 import Portfolio from "./Portfolio";
+import CaseStudy from './hkc-case-study'
+
 
 const App = () => {
   return (
@@ -24,6 +26,7 @@ const App = () => {
             <Route path="/recent-projects" element={<RecentProjects />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/services" element={<Services />} />
+            <Route path="/hkc-case-study" element={<CaseStudy />} />
           </Routes>
         </div>
       </div>

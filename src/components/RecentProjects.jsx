@@ -4,6 +4,7 @@ import ProjectCard from './project-card';
 import HKCImage from '../images/HKC-screenshot.png'
 import DFArtImage from '../images/FDArt-screenshot.png'
 
+
 const RecentProjects = () => {
   return (
     <div>
@@ -14,6 +15,7 @@ const RecentProjects = () => {
         website="hamiltonkratomcenter.com"
         url="http://hamiltonkratomcenter.com"
         tags={['E-commerce', 'NodeJS', 'EJS','Express', 'PostgreSQL', 'HTML', 'CSS', 'Adaptive Layout']}
+        caseStudy='/hkc-case-study'
       />
       <div className='spacer'></div>
       <ProjectCard
@@ -24,6 +26,7 @@ const RecentProjects = () => {
         url="http://denisfafard.art"
         reverse={true}
         tags={['Adaptive Layout', 'NodeJS','EJS', 'HTML', 'CSS Grid']}
+        caseStudy='/hkc-case-study'
       />
     </div>
   );

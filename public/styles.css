@@ -43,3 +43,17 @@ body {
 .App {
   text-align: center;
 }
+
+
+.text-shadow-lg {
+  text-shadow: 12px 12px 14px #000000; /* X-offset, Y-offset, blur radius, and shadow color */
+}
+
+.text-shadow-mid {
+  text-shadow: 6px 6px 7px #000000;
+}
+
+.text-shadow-sm {
+  text-shadow: 2px 2px 3px #000000;
+}
+
