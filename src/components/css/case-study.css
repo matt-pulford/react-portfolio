@@ -1,6 +1,6 @@
 .case-study-container {
     font-family: 'Lexend', sans-serif;
-
+    color: white;
     max-width: 1200px;
     margin: 0 auto;
     text-align: left;
@@ -22,26 +22,20 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    margin-bottom: 100px;
-
-    >img {
-        width: 500px;
-    }
+    margin: 200px 0;
 }
 
 
-.section img {
-    margin-right: 20px;
-}
 
 .section .image1 {
-    width: 600px;
+    width: 650px;
     margin-right: 100px;
 }
 
 .section .image2 {
     height: 500px;
-    margin-left: 75px;;
+    margin-left: 75px;
+    margin-right: 0;
 }
 
 .section.reverse img {
@@ -52,9 +46,8 @@
 .tech-stack {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 40px;
     flex-wrap: wrap;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 }
 
 
@@ -66,28 +59,10 @@
     margin: 20px;
     border-radius: 30px;
     font-size: 1.4rem;
-    background: linear-gradient(300deg,
-          hsl(248deg 100% 77%) 72%,
-          hsl(239deg 100% 84%) 102%,
-          hsl(232deg 100% 89%) 100%);
-  -webkit-box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 1);
+    color: white;
+
   box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 1);
-}
-
-
-.key-features {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.key-features div {
-    flex-basis: 45%;
-    background-color: purple;
-    padding: 15px;
-    margin-bottom: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+  background-color: #CAC5CE90;
 }
 
 .case-study-container div h2 {
@@ -110,4 +85,43 @@
     width: 1000px;
     margin: auto;
     margin-bottom: 100px;
+}
+
+.design-heading {
+    margin-bottom: 25px;
+}
+.key-features {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.key-features .feature-item {
+    flex-basis: 45%;
+    padding: 25px 75px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.feature-item .feature-heading {
+    font-size: 1.7rem;
+    padding-bottom: 15px;
+    font-weight: 700;
+}
+
+.feature-item .feature-text {
+    font-size: 1.3rem;
+}
+
+.image3 {
+    width: 650px;
+    margin-right: 100px;
+}
+
+.image4 {
+    height: 300px;
+   }
+
+.outcome {
+    margin-right: 100px;
 }
