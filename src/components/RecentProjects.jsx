@@ -2,7 +2,7 @@ import React from 'react';
 import './css/recent-projects.css'
 import ProjectCard from './project-card';
 import HKCImage from '../images/HKC-screenshot.png'
-import DFArtImage from '../images/FDArt-screenshot.png'
+import DFArtImage from '../images/df-screenshot.png'
 
 
 const RecentProjects = () => {
@@ -26,7 +26,7 @@ const RecentProjects = () => {
         url="http://denisfafard.art"
         reverse={true}
         tags={['Adaptive Layout', 'NodeJS','EJS', 'HTML', 'CSS Grid']}
-        caseStudy='/hkc-case-study'
+        caseStudy='/df-case-study'
       />
     </div>
   );

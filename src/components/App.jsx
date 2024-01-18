@@ -8,6 +8,7 @@ import Services from './Services';
 import backgroundImage from '../images/business-2846221-grey.webp';
 import Portfolio from "./Portfolio";
 import CaseStudy from './hkc-case-study'
+import DFCaseStudy from './df-case-study'
 
 
 const App = () => {
@@ -27,6 +28,7 @@ const App = () => {
             <Route path="/contact" element={<Contact />} />
             <Route path="/services" element={<Services />} />
             <Route path="/hkc-case-study" element={<CaseStudy />} />
+            <Route path="/df-case-study" element={<DFCaseStudy />} />
           </Routes>
         </div>
       </div>

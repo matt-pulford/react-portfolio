@@ -33,8 +33,10 @@
 }
 
 .section .image2 {
-    height: 500px;
-    margin-left: 75px;
+    position: relative;
+    left: 100px;
+    width: 400px;
+    margin-left: 300px;
     margin-right: 0;
 }
 
@@ -85,11 +87,17 @@
     width: 1000px;
     margin: auto;
     margin-bottom: 100px;
+    margin-left: 70px;
 }
 
 .design-heading {
     margin-bottom: 25px;
 }
+
+.design-text {
+    width: 150%;
+}
+
 .key-features {
     display: flex;
     justify-content: space-between;
@@ -113,15 +121,21 @@
     font-size: 1.3rem;
 }
 
+
+
 .image3 {
     width: 650px;
     margin-right: 100px;
 }
 
 .image4 {
-    height: 300px;
+    position: relative;
+    left: 150px;
+    height: 500px;
+    margin-left: 100px;
    }
 
 .outcome {
-    margin-right: 100px;
+    width: 110%;
+
 }
