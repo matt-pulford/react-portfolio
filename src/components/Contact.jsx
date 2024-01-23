@@ -1,17 +1,28 @@
 import React from 'react';
 import './css/contact.css'
+import emailjs from 'emailjs-com';
+
 
 const Contact = () => {
-  const handleSubmit = () => {
-    // You can add your logic here for handling the form submission
-    console.log('Form submitted!');
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  
+    emailjs.sendForm('service_ngw3jjg', 'template_npkmggc', e.target, 'kaEejbHIadQMfJB9a')
+      .then((result) => {
+          console.log('Email successfully sent!', result.text);
+          // Handle successful email sending (e.g., show a confirmation message)
+      }, (error) => {
+          console.log('Failed to send email:', error);
+          // Handle email sending failure (e.g., show an error message)
+      });
   };
+  
 
   return (
     <div className='contact'>
       <div className='contact-area'>
         <div className="contact-form">
-          <form onSubmit={handleSubmit}>
+          <form id='contact-form' onSubmit={handleSubmit}>
 
             <div className='name-section'>
               <label for="name">Name</label><br />
