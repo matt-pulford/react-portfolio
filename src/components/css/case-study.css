@@ -104,6 +104,10 @@
     flex-wrap: wrap;
 }
 
+.key-features.extra-padding {
+    padding-top: 70px;
+}
+
 .key-features .feature-item {
     flex-basis: 45%;
     padding: 25px 75px;
