@@ -1,6 +1,7 @@
 {
   "name": "react-portfolio",
   "version": "0.1.0",
+  "homepage": "http://mattpulford.ca",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.1",

@@ -47,3 +47,19 @@ textarea {
         margin: 0 10%;
     }
 }
+.thank-you-img {
+  position: fixed; /* Fixed positioning relative to the viewport */
+  bottom: 20px; /* Position it towards the bottom of the screen */
+  right: 0; /* Start from the right edge of the screen */
+  transform: translateX(100%); /* Initially move it to the right, out of view */
+  visibility: hidden; /* Make it invisible initially */
+  transition: transform 0.5s ease-in-out, visibility 0s 0.5s; /* Animate the transform property, delay visibility transition */
+}
+
+.thank-you-img.show {
+  visibility: visible; /* Make it visible when it's time to show */
+  transform: translateX(-20%); /* Move it back to its original position */
+  transition-delay: 0s; /* Make visibility transition immediate when showing */
+}
+
+
