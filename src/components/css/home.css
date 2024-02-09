@@ -145,3 +145,35 @@ button:hover {
   
 }
 
+@media (max-width: 1366px) {
+  .tagline {
+    font-size: 2.4rem; /* Adjusted font size */
+    line-height: 2.8rem; /* Adjusted line height */
+  }
+
+  .description {
+    font-size: 1.8rem; /* Adjusted font size */
+    line-height: 2.2rem; /* Adjusted line height */
+    margin-right: 0px; /* Adjust or add other properties as needed */
+    letter-spacing: normal; /* Reset or adjust as needed */
+    word-spacing: normal; /* Reset or adjust as needed */
+  }
+
+  .home {
+    padding-top: 0;
+  }
+
+  .tagline {
+    font-size: 2.5rem;
+    line-height: 3.0rem;   
+  }
+
+  .description {
+
+    font-size: 2rem;
+    line-height: 2rem;
+    letter-spacing: -1px;
+    word-spacing: 2px;
+    margin-right: -140px
+  }
+}
