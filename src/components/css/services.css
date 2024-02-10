@@ -58,3 +58,31 @@ section {
   border-bottom: 1px solid #FFFFFF50;
 }
 
+@media (max-width: 600px) {
+  .section-header {
+    margin-top: 50px;
+    margin-bottom: 0px;
+  }
+
+  .section-discription {
+    margin-bottom: 20px;
+  }
+
+  .service-spacer {
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+
+  footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .flex-container {
+    margin-top:50px;
+  }
+  section {
+    padding: 0;
+  flex-basis: calc(80%);
+  }
+}
+
