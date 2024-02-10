@@ -97,6 +97,11 @@ button:hover {
 
     .navbar {
       width: 100%;
+      margin-bottom: 0;
+    }
+
+    #root > div.content-container > div > div.home {
+      padding-top: 50px;
     }
 
     .landing-content {
@@ -116,6 +121,7 @@ button:hover {
         margin-right: 0;
       }
     }
+
   
     button {
       margin: 0;
@@ -141,6 +147,10 @@ button:hover {
   .description {
     font-size: 1.2rem;
     line-height: 1.2rem;
+  }
+
+  button {
+    width: 300px;
   }
   
 }
