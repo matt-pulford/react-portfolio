@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import './css/contact.css';
 import emailjs from 'emailjs-com';
-import thankYouImage from '../images/thank-you.png'; // Update this path to the correct location of your image
-
+import thankYouImage from '../images/thank-you.png'; 
 const Contact = () => {
   const [showThankYou, setShowThankYou] = useState(false);
 
@@ -15,7 +14,7 @@ const Contact = () => {
           setShowThankYou(true); // Show the thank-you image
           setTimeout(() => {
             setShowThankYou(false); // Hide the thank-you image after 3 seconds and reset the form
-            e.target.reset(); // Reset form fields here
+            e.target.reset(); 
           }, 2000);
       }, (error) => {
           console.log('Failed to send email:', error);

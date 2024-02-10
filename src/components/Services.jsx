@@ -1,5 +1,5 @@
 import React from 'react';
-import './css/services.css'; // Assuming the CSS is saved in Services.css
+import './css/services.css'; 
 
 function Services() {
   return (

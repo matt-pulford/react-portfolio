@@ -1,7 +1,4 @@
-/* landing-area.css */
 
-
-/* General Styles */
 body {
     margin: 0;
     font-family: 'Lexend', sans-serif;   
@@ -49,7 +46,7 @@ body {
   margin-top: 60px;
 }
 
-/* Apply margin-right to the Link elements */
+
 .buttons-container a {
   margin-right: 10%;
 }
@@ -70,17 +67,17 @@ button {
   border: none;
   font-size: 1.2rem;
   font-weight: 900;
-  transition: all 0.1s ease; /* Smooth transition for the button press */
+  transition: all 0.1s ease;
 }
 
 button:active {
   -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
-  transform: translateY(3px); /* Slightly move the button down */
+  transform: translateY(3px); 
 }
 
 button:hover {
-  cursor: pointer; /* Changes the cursor to a hand pointer when hovering */
+  cursor: pointer; 
 }
 
 .contact-button {

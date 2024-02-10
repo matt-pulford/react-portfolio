@@ -1,18 +1,18 @@
 .tags-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px; /* Adjust the space between tags */
-    margin-top: 20px; /* Space from the content above */
+    gap: 10px; 
+    margin-top: 20px; 
     justify-content: flex-start;
     margin-top: 25px;
   }
   
   .tag {
-    background-color:  #FFFFFF20; /* Light grey background */
-    border-radius: 10px; /* Rounded corners for tags */
-    padding: 5px 10px; /* Padding inside tags */
-    font-size: 0.85rem; /* Smaller font size for tag text */
-    color: #FFFFFF; /* Dark text color for contrast */
-    white-space: nowrap; /* Prevents the tags from breaking into multiple lines */
+    background-color:  #FFFFFF20; 
+    border-radius: 10px; 
+    padding: 5px 10px; 
+    font-size: 0.85rem; 
+    color: #FFFFFF; 
+    white-space: nowrap;
   }
   

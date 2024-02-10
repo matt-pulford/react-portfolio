@@ -13,24 +13,18 @@
   justify-content: space-around;
   width: 100%;
   max-width: 1000px;
-  /* Adjust based on your layout */
-  /* This will create space between your sections */
   margin-top: -50px;
 }
 
 .flex-container>footer {
   width: 100%;
   max-width: 1000px;
-  /* Aligns with flex-row width */
   text-align: center;
   font-size: 1.5rem;
-
-  /* Ensure consistent margin */
 }
 
 section {
   flex-basis: calc(50% - 40px);
-  /* Adjust the width of each section */
   text-align: left;
   padding: 40px;
 

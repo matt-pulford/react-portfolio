@@ -53,13 +53,10 @@
     display: none;
 }
 
-
-/* Added hover effect for individual links */
 .link:hover {
     background-color: #FFFFFF20;
 }
 
-/* Added hover effect for the hamburger icon */
 .hamburger:hover {
     background-color: #555;
 }

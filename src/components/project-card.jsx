@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Tags from './Tags'; // Make sure this import path is correct
+import Tags from './Tags';
 
 
 
