@@ -71,3 +71,24 @@
   text-align: start;
   margin-top: 50px;
 }
+
+@media (max-width: 1025px) {
+  .project-card, .project-card.reverse {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #root > div.content-container > div > div:nth-child(2) > div:nth-child(1) > img {
+    margin-right: 0;
+  }
+  #root > div.content-container > div > div:nth-child(2) > div.project-card.reverse > img {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  
+  #root > div.content-container > div > div:nth-child(2) > div:nth-child(1) > img, #root > div.content-container > div > div:nth-child(2) > div.project-card.reverse > img {
+    width: 380px;
+  }
+}
