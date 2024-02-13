@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c7e2dd63.css",
+    "main.js": "/static/js/main.e0280d36.js",
+    "static/media/df-gallery.png": "/static/media/df-gallery.216a5f95c6914a7885ab.png",
+    "static/media/df-screenshot.png": "/static/media/df-screenshot.efe0783d61a3a57c3c35.png",
+    "static/media/df-mobile.png": "/static/media/df-mobile.47c08e0ea05c55678c69.png",
+    "static/media/hkc-laptop.png": "/static/media/hkc-laptop.f908c3a98ccc8156f76a.png",
+    "static/media/business-2846221-grey.webp": "/static/media/business-2846221-grey.87a11ec59e296cbe4a2a.webp",
+    "static/media/phoney3.png": "/static/media/phoney3.433215a69f227ad6963e.png",
+    "static/media/HKC-screenshot.png": "/static/media/HKC-screenshot.cde3091e1c61a2ec3dc9.png",
+    "static/media/thank-you.png": "/static/media/thank-you.2c7571d0d90730856f07.png",
+    "static/media/hkc-signup.png": "/static/media/hkc-signup.529de8cd1fafa43579a5.png",
+    "index.html": "/index.html",
+    "main.c7e2dd63.css.map": "/static/css/main.c7e2dd63.css.map",
+    "main.e0280d36.js.map": "/static/js/main.e0280d36.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7e2dd63.css",
+    "static/js/main.e0280d36.js"
+  ]
+}
