@@ -72,7 +72,7 @@
   margin-top: 50px;
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 1367px) {
   .project-card, .project-card.reverse {
     flex-direction: column;
     align-items: center;

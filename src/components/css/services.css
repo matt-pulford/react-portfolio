@@ -52,7 +52,7 @@ section {
   border-bottom: 1px solid #FFFFFF50;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
   .section-header {
     margin-top: 50px;
     margin-bottom: 0px;

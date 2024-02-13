@@ -135,7 +135,7 @@ button:hover {
 }
 
 
-@media (max-width: 426px) {
+@media (max-width: 1025px) {
   .tagline {
     font-size: 2.2rem;
     line-height: 2rem;
@@ -149,6 +149,25 @@ button:hover {
   button {
     width: 300px;
   }
-  
 }
+  
+  @media (max-width: 1367px) {
+    .home {
+      padding-top: 0px;
+    }
+
+    .tagline {
+      font-size: 2.7rem;
+      line-height: 2.5rem;
+    }
+  
+    .description {
+      font-size: 1.7rem;
+      line-height: 1.7rem;
+    }
+  
+    button {
+      width: 250px;
+    }
+  }
 
