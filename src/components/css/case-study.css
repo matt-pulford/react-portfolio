@@ -143,3 +143,61 @@
     width: 110%;
 
 }
+
+@media (max-width: 1024px) {
+    .tech-stack {
+        display: none;
+    }
+
+    .navbar {
+        width: 95%;
+        margin-bottom: 40px;
+    }
+
+    .section, .section.reverse {
+        flex-direction: column;
+        width: 95%;
+        margin: 0 20px;
+        margin-top: 40px;
+        
+    }
+
+    .case-study-container div h2, .case-study-container div p {
+        margin: 40px 40px;
+    }
+
+    .section-2-text {
+        width: 100%;
+    }
+
+    .image2, .image3, .image4 {
+        display: none;
+    }
+
+    #root > div.content-container > div > div.case-study-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 5%;
+    }
+
+    .design-text, .outcome {
+        width: auto;
+    }
+
+    .key-features {
+        display: block;
+    }
+
+    .feature-item {
+        padding: 25px 50px;
+    }
+
+    .section-2-text {
+        margin-top: 0;
+    }
+
+    
+    
+}
