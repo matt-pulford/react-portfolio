@@ -1,1 +1,1 @@
-Portfolio Project to be developed and then published using React
+Current version of my profile pagemade with React
