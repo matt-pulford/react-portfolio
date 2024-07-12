@@ -21,7 +21,7 @@
   z-index: 1; /* Ensure the content is above the background */
 }
 
-/* Rest of your existing styles */
+
 * {
   margin: 0;
   padding: 0;
@@ -46,7 +46,7 @@ body {
 
 
 .text-shadow-lg {
-  text-shadow: 12px 12px 14px #000000; /* X-offset, Y-offset, blur radius, and shadow color */
+  text-shadow: 12px 12px 14px #000000; 
 }
 
 .text-shadow-mid {
